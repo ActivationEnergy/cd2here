@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2632BFAE6A543DD5BE49B5C2 /* Cd2HereCore in Frameworks */ = {isa = PBXBuildFile; productRef = 382E8E9D289F85703DFB040E /* Cd2HereCore */; };
+		51A5E756FA893DE81F378A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B6BC951368248A121DA4C33 /* Assets.xcassets */; };
+		62B80DB7CD1228A4E941BC69 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C241B5CCF7CF29E82583EE47 /* main.swift */; };
+		65CA1B710666C7B42B6AD7A8 /* Cd2HereCore in Frameworks */ = {isa = PBXBuildFile; productRef = 983371D6A2E23258F938E23C /* Cd2HereCore */; };
+		6777CE866DFCFD9D0A48BEA2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639760D4EC2C52CE803356CE /* main.swift */; };
+		CE67C29AF5E01F9CFB4A5FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F885AEC83081AE0A3BB70D32 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B6BC951368248A121DA4C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		639760D4EC2C52CE803356CE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7BA2696AEB9A82C48AE04983 /* cd2hereWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cd2hereWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B70DD9B6961C8DA7A9D776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B7C66DF538DD6A7834FB8471 /* cd2hereTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cd2hereTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C241B5CCF7CF29E82583EE47 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DAAA1247A2F00CAAD505BC75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E9CD8E7D1FD13D741F38C005 /* cd2here */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cd2here; path = .; sourceTree = SOURCE_ROOT; };
+		F885AEC83081AE0A3BB70D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DB03B3263A3526E7DD9E3DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CA1B710666C7B42B6AD7A8 /* Cd2HereCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F63B420F7FC34BD9E65134B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2632BFAE6A543DD5BE49B5C2 /* Cd2HereCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27EA318E7FC63A5A5195F806 = {
+			isa = PBXGroup;
+			children = (
+				513D008534D7982320787565 /* cd2hereTab */,
+				E7FF9978B03C30496B449DE5 /* cd2hereWindow */,
+				7DAAAA6BB4D346A907023864 /* Packages */,
+				423B936C16421F5605AC563B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		423B936C16421F5605AC563B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7C66DF538DD6A7834FB8471 /* cd2hereTab.app */,
+				7BA2696AEB9A82C48AE04983 /* cd2hereWindow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		513D008534D7982320787565 /* cd2hereTab */ = {
+			isa = PBXGroup;
+			children = (
+				0B6BC951368248A121DA4C33 /* Assets.xcassets */,
+				DAAA1247A2F00CAAD505BC75 /* Info.plist */,
+				C241B5CCF7CF29E82583EE47 /* main.swift */,
+			);
+			path = cd2hereTab;
+			sourceTree = "<group>";
+		};
+		7DAAAA6BB4D346A907023864 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				E9CD8E7D1FD13D741F38C005 /* cd2here */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		E7FF9978B03C30496B449DE5 /* cd2hereWindow */ = {
+			isa = PBXGroup;
+			children = (
+				F885AEC83081AE0A3BB70D32 /* Assets.xcassets */,
+				A3B70DD9B6961C8DA7A9D776 /* Info.plist */,
+				639760D4EC2C52CE803356CE /* main.swift */,
+			);
+			path = cd2hereWindow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BE0DB8FFF9034D273C7F252 /* cd2hereTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8B9112340FCFA1E6707C99 /* Build configuration list for PBXNativeTarget "cd2hereTab" */;
+			buildPhases = (
+				8201A80978AC29C73F09DECF /* Sources */,
+				2A17A732B28F4E512101FEFA /* Resources */,
+				6DB03B3263A3526E7DD9E3DE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cd2hereTab;
+			packageProductDependencies = (
+				983371D6A2E23258F938E23C /* Cd2HereCore */,
+			);
+			productName = cd2hereTab;
+			productReference = B7C66DF538DD6A7834FB8471 /* cd2hereTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C55E82B44BCD7B42D33BD2E9 /* cd2hereWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E4519E18798087BC6EF7748 /* Build configuration list for PBXNativeTarget "cd2hereWindow" */;
+			buildPhases = (
+				BD75D487CE7DD36A13BD928F /* Sources */,
+				D086B16E01D85672D774DA09 /* Resources */,
+				8F63B420F7FC34BD9E65134B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cd2hereWindow;
+			packageProductDependencies = (
+				382E8E9D289F85703DFB040E /* Cd2HereCore */,
+			);
+			productName = cd2hereWindow;
+			productReference = 7BA2696AEB9A82C48AE04983 /* cd2hereWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05E6FE2EFB792122734EA3FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0BE0DB8FFF9034D273C7F252 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					C55E82B44BCD7B42D33BD2E9 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ED249FF224AA4C7102650306 /* Build configuration list for PBXProject "cd2here" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 27EA318E7FC63A5A5195F806;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B12DB4626AAAB9BDED9F188F /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 423B936C16421F5605AC563B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55E82B44BCD7B42D33BD2E9 /* cd2hereWindow */,
+				0BE0DB8FFF9034D273C7F252 /* cd2hereTab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A17A732B28F4E512101FEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A5E756FA893DE81F378A91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D086B16E01D85672D774DA09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE67C29AF5E01F9CFB4A5FD3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8201A80978AC29C73F09DECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B80DB7CD1228A4E941BC69 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD75D487CE7DD36A13BD928F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6777CE866DFCFD9D0A48BEA2 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		213AE0CA1EC2691407189D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/cd2here.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = cd2hereTab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.activationenergy.cd2here.tab;
+				PRODUCT_NAME = cd2hereTab;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3CE94A4670E612BC6B2F4EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		776B0043B71061B1339ACE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/cd2here.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = cd2hereTab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.activationenergy.cd2here.tab;
+				PRODUCT_NAME = cd2hereTab;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8813139A125D09E557A2368F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		C3B7C197A935352D317DE931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/cd2here.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = cd2hereWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.activationenergy.cd2here.window;
+				PRODUCT_NAME = cd2hereWindow;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EDDA73020B967BBF41F632B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/cd2here.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = cd2hereWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.activationenergy.cd2here.window;
+				PRODUCT_NAME = cd2hereWindow;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8B9112340FCFA1E6707C99 /* Build configuration list for PBXNativeTarget "cd2hereTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776B0043B71061B1339ACE40 /* Debug */,
+				213AE0CA1EC2691407189D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9E4519E18798087BC6EF7748 /* Build configuration list for PBXNativeTarget "cd2hereWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B7C197A935352D317DE931 /* Debug */,
+				EDDA73020B967BBF41F632B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ED249FF224AA4C7102650306 /* Build configuration list for PBXProject "cd2here" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE94A4670E612BC6B2F4EF2 /* Debug */,
+				8813139A125D09E557A2368F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B12DB4626AAAB9BDED9F188F /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		382E8E9D289F85703DFB040E /* Cd2HereCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Cd2HereCore;
+		};
+		983371D6A2E23258F938E23C /* Cd2HereCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Cd2HereCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 05E6FE2EFB792122734EA3FE /* Project object */;
+}

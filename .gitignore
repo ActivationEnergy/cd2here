@@ -1,0 +1,9 @@
+.DS_Store
+/.build/
+/build/                    # local xcodebuild -derivedDataPath build output
+/DerivedData*/
+/.swiftpm/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint

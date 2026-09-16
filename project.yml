@@ -1,0 +1,80 @@
+name: cd2here
+options:
+  bundleIdPrefix: io.github.activationenergy.cd2here
+  deploymentTarget:
+    macOS: "13.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MACOSX_DEPLOYMENT_TARGET: "13.0"
+    ENABLE_HARDENED_RUNTIME: YES
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: ""
+packages:
+  Cd2HereCore:
+    path: .
+targets:
+  cd2hereWindow:
+    type: application
+    platform: macOS
+    sources:
+      - path: cd2hereWindow
+    info:
+      path: cd2hereWindow/Info.plist
+      properties:
+        CFBundleShortVersionString: 0.4.0
+        CFBundleVersion: "7"
+        LSMinimumSystemVersion: $(MACOSX_DEPLOYMENT_TARGET)
+        LSUIElement: true
+        NSAppleEventsUsageDescription: cd2here uses Finder to determine the current location and the selected terminal application to open it.
+        NSHumanReadableCopyright: Copyright © 2026 ActivationEnergy. MIT License.
+    entitlements:
+      path: Config/cd2here.entitlements
+      properties:
+        com.apple.security.automation.apple-events: true
+    dependencies:
+      - package: Cd2HereCore
+        product: Cd2HereCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.activationenergy.cd2here.window
+        PRODUCT_NAME: cd2hereWindow
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+  cd2hereTab:
+    type: application
+    platform: macOS
+    sources:
+      - path: cd2hereTab
+    info:
+      path: cd2hereTab/Info.plist
+      properties:
+        CFBundleShortVersionString: 0.4.0
+        CFBundleVersion: "7"
+        LSMinimumSystemVersion: $(MACOSX_DEPLOYMENT_TARGET)
+        LSUIElement: true
+        NSAppleEventsUsageDescription: cd2here uses Finder to determine the current location and the selected terminal application to open it.
+        NSHumanReadableCopyright: Copyright © 2026 ActivationEnergy. MIT License.
+    entitlements:
+      path: Config/cd2here.entitlements
+      properties:
+        com.apple.security.automation.apple-events: true
+    dependencies:
+      - package: Cd2HereCore
+        product: Cd2HereCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.activationenergy.cd2here.tab
+        PRODUCT_NAME: cd2hereTab
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+schemes:
+  cd2hereWindow:
+    build:
+      targets:
+        cd2hereWindow: all
+  cd2hereTab:
+    build:
+      targets:
+        cd2hereTab: all
